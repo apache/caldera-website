@@ -1,1 +1,1 @@
-# MITRE Caldera Website Homepage
+# Apache Caldera Website Homepage
