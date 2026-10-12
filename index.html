@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDPZDB8Y8E"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-ZDPZDB8Y8E');
-    </script>
     <script src="./index.js"></script>
 
     <meta charset="utf-8">
@@ -25,7 +16,7 @@
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/caldera.css">
-    <title>Apache Caldera</title>
+    <title>Apache Caldera (Incubating)</title>
   </head>
   <body>
 
@@ -36,7 +27,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
 	      <a class="navbar-item brand">
-            <p>Apache Caldera</p>
+            <p>Apache Caldera (Incubating)</p>
           </a>
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
             <span aria-hidden="true"></span>
@@ -58,10 +49,10 @@
             <a href="https://www.youtube.com/@MITRECalderaOfficial">Videos</a>
           </div>
           <div class="navbar-item main-item-color">
-            <a href="https://medium.com/@mitrecaldera/">Blog</a>
+            <a href="https://medium.com/@apachecaldera">Blog</a>
           </div>
           <div class="navbar-item alt-item-color">
-            <a href="./pages/benefactors/benefactors.html">Benefactors</a>
+            <a href="./pages/benefactors/benefactors.html">Thanks</a>
           </div>
         </div>
       </div>
@@ -91,6 +82,12 @@
       <div id="get-involved">
         <h1>Get Involved</h1>
         <div class="buttons">
+          <a class="button" href="https://lists.apache.org/list.html?dev@caldera.apache.org">
+            <span class="icon is-small">
+              <img src="img/mail-outline.svg" alt="Email Icon">
+            </span>
+            <span>Dev Mailing List</span>
+          </a>
           <a class="button" href="https://github.com/apache/caldera/blob/master/CONTRIBUTING.md">
             <span class="icon is-small">
               <img src="img/logo-github.svg" alt="GitHub Logo">
@@ -103,19 +100,20 @@
             </span>
             <span>Get Started</span>
           </a>
-          <a class="button" href="https://discord.gg/mJsTuhZ88T" target="_blank">
-            <span class="icon is-small">
-              <img src="img/logo-discord.svg" alt="Discord Logo">
-            </span>
-            <span>Join on Discord</span>
-          </a>
           <a class="button" href="https://github.com/apache/caldera/discussions">
             <span class="icon is-small">
               <img src="img/logo-github.svg" alt="GitHub Logo">
             </span>
             <span>Discussions</span>
           </a>
+          <a class="button" href="https://discord.gg/mJsTuhZ88T" target="_blank">
+            <span class="icon is-small">
+              <img src="img/logo-discord.svg" alt="Discord Logo">
+            </span>
+            <span>Chat on Discord</span>
+          </a>
         </div>
+        <p>Project discussions and decisions happen on the dev mailing list. To subscribe, send an email to <a href="mailto:dev-subscribe@caldera.apache.org">dev-subscribe@caldera.apache.org</a>.</p>
       </div>
 
       <div id="what-do" class="home-section">
@@ -148,7 +146,12 @@
 
       <div id="caldera-in-action" class="home-section">
         <h1>Apache Caldera in Action</h1>
-        <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/W7fi0RVYiJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a class="button" href="https://www.youtube.com/watch?v=W7fi0RVYiJE" target="_blank">
+          <span class="icon is-small">
+            <img src="img/logo-youtube.svg" alt="YouTube Logo">
+          </span>
+          <span>Watch the demo on YouTube</span>
+        </a>
       </div>
 
       <div id="contact" class="home-section">
@@ -158,13 +161,14 @@
             <span class="icon is-small">
               <img src="img/mail-outline.svg" alt="Email Icon">
             </span>
+            <span>dev@caldera.apache.org</span>
           </a>
           <a class="button" href="https://www.youtube.com/@MITRECalderaOfficial">
             <span class="icon is-small">
               <img src="img/logo-youtube.svg" alt="YouTube Logo">
             </span>
           </a>
-          <a class="button" href="https://medium.com/@mitrecaldera">
+          <a class="button" href="https://medium.com/@apachecaldera">
             <span class="icon is-small">
               <img src="img/logo-medium.svg" alt="Medium Logo">
             </span>
@@ -177,25 +181,22 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="content has-text-centered">
-        <a class="block" href="http://www.apache.org/">
-          <img src="img/apache-incubator.svg" width="147" height="77" alt="Apache Logo">
+        <a class="block" href="https://incubator.apache.org/">
+          <img src="img/apache-incubator.svg" width="147" height="77" alt="Apache Incubator Logo">
         </a>
-        <p class="block">Copyright © 2026 <a href="https://www.apache.org/">Apache Software Foundation</a> under the terms of the <a href="https://www.apache.org/licenses/">Apache&nbsp;License&nbsp;v2</a>.
+        <p class="block">
+          <a href="https://www.apache.org/">Apache Software Foundation</a> |
+          <a href="https://www.apache.org/licenses/">License</a> |
+          <a href="https://www.apache.org/security/">Security</a> |
+          <a href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a> |
+          <a href="https://www.apache.org/foundation/thanks.html">Thanks</a> |
+          <a href="https://privacy.apache.org/policies/privacy-policy-public.html">Privacy Policy</a> |
+          <a href="https://www.apache.org/events/current-event.html">Events</a>
         </p>
+        <p class="block is-size-7">Apache Caldera (Incubating) is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by the Apache Incubator. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF.</p>
+        <p class="block is-size-7">Copyright © 2026 The Apache Software Foundation. Licensed under the Apache License, Version 2.0.</p>
+        <p class="block is-size-7">Apache Caldera, Apache, the Apache feather logo and the Apache Incubator project logo are trademarks of The Apache Software Foundation. All other marks mentioned may be trademarks or registered trademarks of their respective owners.</p>
       </div>
-	</div>
-		<p>
-			Apache Caldera (incubating) is an effort undergoing incubation at the Apache
-Software Foundation (ASF), sponsored by the Apache Incubator PMC.
-
-Incubation is required of all newly accepted projects until a further review
-indicates that the infrastructure, communications, and decision making process
-have stabilized in a manner consistent with other successful ASF projects.
-
-While incubation status is not necessarily a reflection of the completeness
-or stability of the code, it does indicate that the project has yet to be
-fully endorsed by the ASF.
-		</p>
     </footer>
 
   </body>
